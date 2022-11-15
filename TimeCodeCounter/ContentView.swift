@@ -16,6 +16,7 @@ struct ContentView: View {
         
         VStack {
             
+            Text("Mode: 59.94 NDF")
             Text("Elapsed Time: \(counter.elapsedTimeString)")
             Text("Frames: \(counter.frameCount(under: .f59_94_ndf))")
             Text("Time Code: \(counter.timeCode(under: .f59_94_ndf))")
@@ -30,6 +31,7 @@ struct ContentView: View {
             }
             
         }
+        .font(.largeTitle.monospacedDigit())
         
     }
     

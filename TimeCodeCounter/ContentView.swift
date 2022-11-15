@@ -6,17 +6,33 @@
 //
 
 import SwiftUI
+import TimeCodeCounterPackage
 
 struct ContentView: View {
+    
+    @StateObject private var counter = Counter()
+    
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            Text("Elapsed Time: \(counter.elapsedTimeString)")
+            Text("Frames: \(counter.frameCount(under: .f59_94_ndf))")
+            Text("Time Code: \(counter.timeCode(under: .f59_94_ndf))")
+            
+            Spacer()
+                .frame(maxHeight: 100)
+            
+            Button {
+                counter.isRunning ? counter.stop() : counter.start()
+            } label: {
+                counter.isRunning ? Text("Stop") : Text("Start")
+            }
+            
         }
-        .padding()
+        
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

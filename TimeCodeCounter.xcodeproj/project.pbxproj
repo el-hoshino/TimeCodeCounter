@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF6F54DD2924006600232675 /* TimeCodeCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F54DC2924006600232675 /* TimeCodeCounterApp.swift */; };
+		BF6F54DF2924006600232675 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F54DE2924006600232675 /* ContentView.swift */; };
+		BF6F54E12924006700232675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6F54E02924006700232675 /* Assets.xcassets */; };
+		BF6F54E52924006700232675 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6F54E42924006700232675 /* Preview Assets.xcassets */; };
+		BF6F54EF2924006700232675 /* TimeCodeCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F54EE2924006700232675 /* TimeCodeCounterTests.swift */; };
+		BF6F54F92924006700232675 /* TimeCodeCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F54F82924006700232675 /* TimeCodeCounterUITests.swift */; };
+		BF6F54FB2924006700232675 /* TimeCodeCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F54FA2924006700232675 /* TimeCodeCounterUITestsLaunchTests.swift */; };
+		BF6F550B292402AC00232675 /* TimeCodeCounterPackage in Frameworks */ = {isa = PBXBuildFile; productRef = BF6F550A292402AC00232675 /* TimeCodeCounterPackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF6F54EB2924006700232675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF6F54D12924006600232675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF6F54D82924006600232675;
+			remoteInfo = TimeCodeCounter;
+		};
+		BF6F54F52924006700232675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF6F54D12924006600232675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF6F54D82924006600232675;
+			remoteInfo = TimeCodeCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF6F54D92924006600232675 /* TimeCodeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeCodeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6F54DC2924006600232675 /* TimeCodeCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCodeCounterApp.swift; sourceTree = "<group>"; };
+		BF6F54DE2924006600232675 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF6F54E02924006700232675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF6F54E22924006700232675 /* TimeCodeCounter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimeCodeCounter.entitlements; sourceTree = "<group>"; };
+		BF6F54E42924006700232675 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF6F54EA2924006700232675 /* TimeCodeCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeCodeCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6F54EE2924006700232675 /* TimeCodeCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCodeCounterTests.swift; sourceTree = "<group>"; };
+		BF6F54F42924006700232675 /* TimeCodeCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeCodeCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6F54F82924006700232675 /* TimeCodeCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCodeCounterUITests.swift; sourceTree = "<group>"; };
+		BF6F54FA2924006700232675 /* TimeCodeCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCodeCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF6F55082924015E00232675 /* SwiftPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SwiftPackage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF6F54D62924006600232675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6F550B292402AC00232675 /* TimeCodeCounterPackage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6F54E72924006700232675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6F54F12924006700232675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF6F54D02924006600232675 = {
+			isa = PBXGroup;
+			children = (
+				BF6F55072924015E00232675 /* Packages */,
+				BF6F54DB2924006600232675 /* TimeCodeCounter */,
+				BF6F54ED2924006700232675 /* TimeCodeCounterTests */,
+				BF6F54F72924006700232675 /* TimeCodeCounterUITests */,
+				BF6F54DA2924006600232675 /* Products */,
+				BF6F5509292402AC00232675 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF6F54DA2924006600232675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F54D92924006600232675 /* TimeCodeCounter.app */,
+				BF6F54EA2924006700232675 /* TimeCodeCounterTests.xctest */,
+				BF6F54F42924006700232675 /* TimeCodeCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF6F54DB2924006600232675 /* TimeCodeCounter */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F54DC2924006600232675 /* TimeCodeCounterApp.swift */,
+				BF6F54DE2924006600232675 /* ContentView.swift */,
+				BF6F54E02924006700232675 /* Assets.xcassets */,
+				BF6F54E22924006700232675 /* TimeCodeCounter.entitlements */,
+				BF6F54E32924006700232675 /* Preview Content */,
+			);
+			path = TimeCodeCounter;
+			sourceTree = "<group>";
+		};
+		BF6F54E32924006700232675 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F54E42924006700232675 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF6F54ED2924006700232675 /* TimeCodeCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F54EE2924006700232675 /* TimeCodeCounterTests.swift */,
+			);
+			path = TimeCodeCounterTests;
+			sourceTree = "<group>";
+		};
+		BF6F54F72924006700232675 /* TimeCodeCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F54F82924006700232675 /* TimeCodeCounterUITests.swift */,
+				BF6F54FA2924006700232675 /* TimeCodeCounterUITestsLaunchTests.swift */,
+			);
+			path = TimeCodeCounterUITests;
+			sourceTree = "<group>";
+		};
+		BF6F55072924015E00232675 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F55082924015E00232675 /* SwiftPackage */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		BF6F5509292402AC00232675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF6F54D82924006600232675 /* TimeCodeCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6F54FE2924006700232675 /* Build configuration list for PBXNativeTarget "TimeCodeCounter" */;
+			buildPhases = (
+				BF6F54D52924006600232675 /* Sources */,
+				BF6F54D62924006600232675 /* Frameworks */,
+				BF6F54D72924006600232675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeCodeCounter;
+			packageProductDependencies = (
+				BF6F550A292402AC00232675 /* TimeCodeCounterPackage */,
+			);
+			productName = TimeCodeCounter;
+			productReference = BF6F54D92924006600232675 /* TimeCodeCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF6F54E92924006700232675 /* TimeCodeCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6F55012924006700232675 /* Build configuration list for PBXNativeTarget "TimeCodeCounterTests" */;
+			buildPhases = (
+				BF6F54E62924006700232675 /* Sources */,
+				BF6F54E72924006700232675 /* Frameworks */,
+				BF6F54E82924006700232675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF6F54EC2924006700232675 /* PBXTargetDependency */,
+			);
+			name = TimeCodeCounterTests;
+			productName = TimeCodeCounterTests;
+			productReference = BF6F54EA2924006700232675 /* TimeCodeCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF6F54F32924006700232675 /* TimeCodeCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6F55042924006700232675 /* Build configuration list for PBXNativeTarget "TimeCodeCounterUITests" */;
+			buildPhases = (
+				BF6F54F02924006700232675 /* Sources */,
+				BF6F54F12924006700232675 /* Frameworks */,
+				BF6F54F22924006700232675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF6F54F62924006700232675 /* PBXTargetDependency */,
+			);
+			name = TimeCodeCounterUITests;
+			productName = TimeCodeCounterUITests;
+			productReference = BF6F54F42924006700232675 /* TimeCodeCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF6F54D12924006600232675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BF6F54D82924006600232675 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BF6F54E92924006700232675 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BF6F54D82924006600232675;
+					};
+					BF6F54F32924006700232675 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BF6F54D82924006600232675;
+					};
+				};
+			};
+			buildConfigurationList = BF6F54D42924006600232675 /* Build configuration list for PBXProject "TimeCodeCounter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF6F54D02924006600232675;
+			productRefGroup = BF6F54DA2924006600232675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF6F54D82924006600232675 /* TimeCodeCounter */,
+				BF6F54E92924006700232675 /* TimeCodeCounterTests */,
+				BF6F54F32924006700232675 /* TimeCodeCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF6F54D72924006600232675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6F54E52924006700232675 /* Preview Assets.xcassets in Resources */,
+				BF6F54E12924006700232675 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6F54E82924006700232675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6F54F22924006700232675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF6F54D52924006600232675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6F54DF2924006600232675 /* ContentView.swift in Sources */,
+				BF6F54DD2924006600232675 /* TimeCodeCounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6F54E62924006700232675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6F54EF2924006700232675 /* TimeCodeCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6F54F02924006700232675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6F54F92924006700232675 /* TimeCodeCounterUITests.swift in Sources */,
+				BF6F54FB2924006700232675 /* TimeCodeCounterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF6F54EC2924006700232675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF6F54D82924006600232675 /* TimeCodeCounter */;
+			targetProxy = BF6F54EB2924006700232675 /* PBXContainerItemProxy */;
+		};
+		BF6F54F62924006700232675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF6F54D82924006600232675 /* TimeCodeCounter */;
+			targetProxy = BF6F54F52924006700232675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF6F54FC2924006700232675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF6F54FD2924006700232675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BF6F54FF2924006700232675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeCodeCounter/TimeCodeCounter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeCodeCounter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.TimeCodeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF6F55002924006700232675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeCodeCounter/TimeCodeCounter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeCodeCounter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.TimeCodeCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF6F55022924006700232675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.TimeCodeCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeCodeCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeCodeCounter";
+			};
+			name = Debug;
+		};
+		BF6F55032924006700232675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.TimeCodeCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeCodeCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeCodeCounter";
+			};
+			name = Release;
+		};
+		BF6F55052924006700232675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.TimeCodeCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeCodeCounter;
+			};
+			name = Debug;
+		};
+		BF6F55062924006700232675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.crazism.TimeCodeCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeCodeCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF6F54D42924006600232675 /* Build configuration list for PBXProject "TimeCodeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6F54FC2924006700232675 /* Debug */,
+				BF6F54FD2924006700232675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6F54FE2924006700232675 /* Build configuration list for PBXNativeTarget "TimeCodeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6F54FF2924006700232675 /* Debug */,
+				BF6F55002924006700232675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6F55012924006700232675 /* Build configuration list for PBXNativeTarget "TimeCodeCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6F55022924006700232675 /* Debug */,
+				BF6F55032924006700232675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6F55042924006700232675 /* Build configuration list for PBXNativeTarget "TimeCodeCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6F55052924006700232675 /* Debug */,
+				BF6F55062924006700232675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF6F550A292402AC00232675 /* TimeCodeCounterPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimeCodeCounterPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BF6F54D12924006600232675 /* Project object */;
+}

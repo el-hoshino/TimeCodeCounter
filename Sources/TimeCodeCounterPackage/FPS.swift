@@ -31,17 +31,22 @@ extension FPS {
     
     public func frameCount(during elapsedTime: TimeInterval) -> Int {
         let frames = (elapsedTime / TimeInterval(secondsPer10Minutes)) * TimeInterval(framesPer10Minutes)
-        let frameCount = Int(frames.rounded())
+        let frameCount = Int(frames.rounded(.down))
         return frameCount
     }
     
-    public func formattedTimeCode(during elapsedTime: TimeInterval) -> String {
+    func formattedTimeCode(frameCount: Int) -> String {
         // https://video.stackexchange.com/questions/22722/how-are-frames-in-59-94-drop-frame-timecode-dropped
-        let frameCount = frameCount(during: elapsedTime)
         let ff = frameCount % framesPerSecondOnTimeCode
         let seconds = frameCount / framesPerSecondOnTimeCode
         let timePart = timeFormatter.string(seconds: seconds)
-        return "\(timePart):\(ff)"
+        let framePart = ff.formatted(digits: 2)
+        return "\(timePart):\(framePart)"
+    }
+    
+    public func formattedTimeCode(during elapsedTime: TimeInterval) -> String {
+        let frameCount = frameCount(during: elapsedTime)
+        return formattedTimeCode(frameCount: frameCount)
     }
     
 }
